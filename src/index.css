@@ -10,7 +10,6 @@ a {
   text-decoration: none !important;
 }
 
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -30,10 +29,6 @@ code {
   animation-duration: .8s;
   animation-delay: .4s;
   animation-name: fadeInUp;
-  /*
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
-  */
 }
 
 .homeSliderFadeInUp2 {
