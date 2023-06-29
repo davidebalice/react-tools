@@ -19,7 +19,6 @@ const Header = () => {
             </div>
           </div>
         </div>
-
         <header>
           <div className="header-area">
             <div className="main-header header-sticky">

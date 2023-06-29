@@ -2694,8 +2694,8 @@ hr {
   transition: all 0.4s ease-out 0s;
   position: relative;
   z-index: 1;
-  -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.23);
-  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.23);
+  -webkit-box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.24);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.24);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .categories-area .single-cat::before {
