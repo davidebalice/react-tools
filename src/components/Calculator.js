@@ -12,7 +12,6 @@ function Calculator() {
     const updateCalculation = (value) => {
    
         if(
-          
             actions.includes(value) & calculation === '' ||
             actions.includes(value) & actions.includes(calculation.slice(-1))
         ){

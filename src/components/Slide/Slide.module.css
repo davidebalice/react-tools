@@ -12,6 +12,7 @@
   text-align: left;
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
 }
 
 .slideColumn {
@@ -19,6 +20,7 @@
   color: #fff;
   padding-top: 40px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  align-items: center;
 }
 
 .slideColumn h1 {
@@ -30,6 +32,7 @@
   color: #fff;
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  align-items: center;
 }
 @media screen and (max-width: 767px) {
   .slideColumn {

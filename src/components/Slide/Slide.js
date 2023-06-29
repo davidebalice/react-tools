@@ -8,8 +8,8 @@ const Slide = () => {
       <div className={classes.slideBarInt}>
         <img src={img} alt="react" />
         <div className={classes.slideColumn}>
-           <h1>React Tools</h1>
-           <p>dsfsdfsdfsdf sdf sdf sd sfdd d </p>
+          <h1>React Tools</h1>
+          <p>Some useful examples of React implementation</p>
         </div>
       </div>
     </div>

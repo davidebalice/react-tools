@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter, Routes, Route, Link, NavLink } from "react-router-dom";
-import AnimatedRoutes from "./AnimatedRoutes";
 import classes from "./Header.module.css";
 
 const Header = () => {
@@ -51,21 +50,7 @@ const Header = () => {
                   <div className="col-xl-10 col-lg-10 col-md-10">
                     <div className="menu-main d-flex align-items-center justify-content-end">
                       <div className="main-menu f-right d-none d-lg-block">
-                        <nav>
-                          <ul id="navigation">
-                            <li>
-                              <Link exact to="/">
-                                Home
-                              </Link>
-                            </li>
-                            <li>
-                              <Link to="/calculator">Calculator</Link>
-                            </li>
-                            <li>
-                              <Link to="/calendar">Calendar</Link>
-                            </li>
-                          </ul>
-                        </nav>
+                       
                       </div>
                     </div>
                   </div>
