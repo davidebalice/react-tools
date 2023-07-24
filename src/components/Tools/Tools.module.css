@@ -8,3 +8,45 @@
   width: 100%;
   height: auto;
 }
+
+.cardColumn {
+  display: flex;
+  flex-direction: column;
+  min-height: 440px;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.bottomCard {
+  background: #f1f1f1;
+  height: 80px;
+  margin-top: auto;
+  color: #333;
+  font-size: 14px;
+}
+
+.bottomCardRow {
+  background: #f1f1f1;
+  display: flex;
+  margin-top: 10px;
+  flex-direction: row;
+  align-items: center;
+  text-overflow: ellipsis;
+}
+
+.bottomCardIconContainer {
+  margin: 0px 10px 0px 10px;
+  min-width: 50px;
+  text-align: center;
+}
+
+.bottomCardIcon {
+  color: #333;
+  font-size: 24px;
+}
+
+.bottomCardUrlText {
+  color: #333;
+  font-size: 14px;
+}

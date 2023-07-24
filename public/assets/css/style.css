@@ -2656,37 +2656,37 @@ hr {
 .portfolio-details-area .details-caption p {
   color: #677294;
 }
-.categories-area {
+.toolArea {
   background-image: url(../img/gallery/shape1.png);
   background-size: 71%;
   background-repeat: no-repeat;
   background-position: left top;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .categories-area {
+  .toolArea {
     background-image: unset;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .categories-area {
+  .toolArea {
     background-image: unset;
   }
 }
 @media (max-width: 575px) {
-  .categories-area {
+  .toolArea {
     background-image: unset;
   }
 }
-.categories-area.categories-area2 {
+.toolArea.toolArea2 {
   background-image: unset;
 }
-.categories-area .single-cat {
+.toolArea .toolCard {
   cursor: pointer;
   border: 2px solid #fff;
   border-radius: 10px;
   overflow: hidden;
-  min-height: 350px;
-  padding: 0px 0px 22px 0px;
+  min-height: 440px;
+  padding: 0px;
   -webkit-transition: all 0.4s ease-out 0s;
   -moz-transition: all 0.4s ease-out 0s;
   -ms-transition: all 0.4s ease-out 0s;
@@ -2694,23 +2694,11 @@ hr {
   transition: all 0.4s ease-out 0s;
   position: relative;
   z-index: 1;
-  -webkit-box-shadow: 0px 3px 5px 3px rgba(0, 0, 0, 0.20);
-  box-shadow: 0px 3px 5px 3px rgba(0, 0, 0, 0.20);
+  -webkit-box-shadow: 0px 3px 5px 3px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 5px 3px rgba(0, 0, 0, 0.2);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.categories-area .single-cat::before {
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 0;
-  background-color: rgba(48, 105, 208, 0.47);
-  transition: 0.6s;
-  bottom: 0;
-  left: 0;
-  z-index: 2;
-  border-radius: 6px;
-}
-.categories-area .single-cat .cat-icon span {
+.toolArea .toolCard .cat-icon span {
   color: #333;
   font-size: 50px;
   margin-bottom: 30px;
@@ -2724,7 +2712,7 @@ hr {
   border-radius: 50px;
   display: inline-block;
 }
-.categories-area .single-cat .cat-cap h5 {
+.toolArea .toolCard .cat-cap h5 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
   font-weight: 700;
@@ -2738,16 +2726,16 @@ hr {
   transition: all 0.2s ease-out 0s;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .categories-area .single-cat .cat-cap h5 > a {
+  .toolArea .toolCard .cat-cap h5 > a {
     font-size: 21px;
   }
 }
 @media (max-width: 575px) {
-  .categories-area .single-cat .cat-cap h5 > a {
+  .toolArea .toolCard .cat-cap h5 > a {
     font-size: 21px;
   }
 }
-.categories-area .single-cat .cat-cap p {
+.toolArea .toolCard .cat-cap p {
   margin-bottom: 36px;
   color: #57667e;
   font-size: 16px;
@@ -2759,11 +2747,11 @@ hr {
   margin: 0;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .categories-area .single-cat .cat-cap p {
+  .toolArea .toolCard .cat-cap p {
     font-size: 15px;
   }
 }
-.categories-area .single-cat .cat-cap a {
+.toolArea .toolCard .cat-cap a {
   color: #1c165c;
   font-size: 16px;
   font-weight: 600;
@@ -2773,26 +2761,26 @@ hr {
   -o-transition: all 0.2s ease-out 0s;
   transition: all 0.2s ease-out 0s;
 }
-.categories-area .single-cat:hover {
+.toolArea .toolCard:hover {
   border: 2px solid transparent;
 }
-.categories-area .single-cat:hover::before {
+.toolArea .toolCard:hover::before {
   height: 100%;
 }
-.categories-area .single-cat:hover .cat-icon span {
+.toolArea .toolCard:hover .cat-icon span {
   background: #fff;
 }
-.categories-area .single-cat:hover .cat-cap h5 {
+.toolArea .toolCard:hover .cat-cap h5 {
   color: #333;
 }
-.categories-area .single-cat:hover .cat-cap p {
+.toolArea .toolCard:hover .cat-cap p {
   color: #333;
 }
-.categories-area .single-cat:hover .cat-cap a {
+.toolArea .toolCard:hover .cat-cap a {
   color: #fff;
 }
 .footer-area {
-  background: #080827;
+  background: #111;
 }
 .footer-area .footer-top .footer-top-cap img {
   margin-bottom: 30px;
@@ -2822,8 +2810,8 @@ hr {
   margin-bottom: 1px;
 }
 .footer-area .footer-bottom {
-  padding-bottom: 50px;
-  padding-top: 20px;
+  padding-bottom: 70px;
+  padding-top: 70px;
 }
 .footer-area .footer-bottom .footer-copy-right p {
   color: #393a50;
