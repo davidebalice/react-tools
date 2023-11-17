@@ -7,6 +7,9 @@ import calculator from "../../assets/img/calculator.jpg";
 import calendar from "../../assets/img/calendar.jpg";
 import dark from "../../assets/img/dark.jpg";
 import form from "../../assets/img/form.jpg";
+import maps from "../../assets/img/maps.jpg";
+import meteo from "../../assets/img/meteo.jpg";
+import lorem from "../../assets/img/lorem.jpg";
 import { FaGithub } from "react-icons/fa";
 import { BiLinkAlt } from "react-icons/bi";
 
@@ -29,54 +32,6 @@ const Tools = () => {
                     <div className="cat-cap">
                       <h5>Cart</h5>
                       <p>Example of cart implementation using context hook.</p>
-                    </div>
-                  </div>
-                  <div className={classes.bottomCard}>
-                    <div className={classes.bottomCardRow}>
-                      <a href="#" target="_blank">
-                        <div className={classes.bottomCardIconContainer}>
-                          <BiLinkAlt className={classes.bottomCardIcon} />
-                        </div>
-                      </a>
-                      <a href="#" target="_blank">
-                        <div className={classes.bottomCardUrl}>
-                          <span className={classes.bottomCardUrlText}>
-                            fghtregerfsf
-                          </span>
-                        </div>
-                      </a>
-                    </div>
-                    <div className={classes.bottomCardRow}>
-                      <a href="#" target="_blank">
-                        <div className={classes.bottomCardIconContainer}>
-                          <FaGithub className={classes.bottomCardIcon} />
-                        </div>
-                      </a>
-                      <a href="#" target="_blank">
-                        <span className={classes.bottomCardUrlText}>
-                          dfssdfsdfsdfsdfsdf
-                        </span>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-md-6 col-sm-6">
-              <div className="toolCard text-center mb-50">
-                <div className={classes.cardColumn}>
-                  <div>
-                    <img
-                      src={gradient}
-                      className={classes.toolsImg}
-                      alt="gradient"
-                    />
-                    <div className="cat-cap">
-                      <h5>Color gradients</h5>
-                      <p>
-                        Generates variations of a color, ideal for web design
-                      </p>
                     </div>
                   </div>
                   <div className={classes.bottomCard}>
@@ -156,9 +111,7 @@ const Tools = () => {
                 </div>
               </div>
             </div>
-          </div>
 
-          <div className="row">
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="toolCard text-center mb-50">
                 <div className={classes.cardColumn}>
@@ -204,7 +157,9 @@ const Tools = () => {
                 </div>
               </div>
             </div>
+          </div>
 
+          <div className="row">
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="toolCard text-center mb-50">
                 <div className={classes.cardColumn}>
@@ -263,6 +218,192 @@ const Tools = () => {
                     <div className="cat-cap">
                       <h5>Form validation</h5>
                       <p>Simple form validation developed in React</p>
+                    </div>
+                  </div>
+                  <div className={classes.bottomCard}>
+                    <div className={classes.bottomCardRow}>
+                      <a href="#" target="_blank">
+                        <div className={classes.bottomCardIconContainer}>
+                          <BiLinkAlt className={classes.bottomCardIcon} />
+                        </div>
+                      </a>
+                      <a href="#" target="_blank">
+                        <div className={classes.bottomCardUrl}>
+                          <span className={classes.bottomCardUrlText}>
+                            fghtregerfsf
+                          </span>
+                        </div>
+                      </a>
+                    </div>
+                    <div className={classes.bottomCardRow}>
+                      <a href="#" target="_blank">
+                        <div className={classes.bottomCardIconContainer}>
+                          <FaGithub className={classes.bottomCardIcon} />
+                        </div>
+                      </a>
+                      <a href="#" target="_blank">
+                        <span className={classes.bottomCardUrlText}>
+                          dfssdfsdfsdfsdfsdf
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 col-sm-6">
+              <div className="toolCard text-center mb-50">
+                <div className={classes.cardColumn}>
+                  <div>
+                    <img
+                      src={maps}
+                      className={classes.toolsImg}
+                      alt="gradient"
+                    />
+                    <div className="cat-cap">
+                      <h5>Google Maps</h5>
+                      <p>Implementation of Google Maps in React</p>
+                    </div>
+                  </div>
+                  <div className={classes.bottomCard}>
+                    <div className={classes.bottomCardRow}>
+                      <a href="#" target="_blank">
+                        <div className={classes.bottomCardIconContainer}>
+                          <BiLinkAlt className={classes.bottomCardIcon} />
+                        </div>
+                      </a>
+                      <a href="#" target="_blank">
+                        <div className={classes.bottomCardUrl}>
+                          <span className={classes.bottomCardUrlText}>
+                            fghtregerfsf
+                          </span>
+                        </div>
+                      </a>
+                    </div>
+                    <div className={classes.bottomCardRow}>
+                      <a href="#" target="_blank">
+                        <div className={classes.bottomCardIconContainer}>
+                          <FaGithub className={classes.bottomCardIcon} />
+                        </div>
+                      </a>
+                      <a href="#" target="_blank">
+                        <span className={classes.bottomCardUrlText}>
+                          dfssdfsdfsdfsdfsdf
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 col-sm-6">
+              <div className="toolCard text-center mb-50">
+                <div className={classes.cardColumn}>
+                  <div>
+                    <img
+                      src={meteo}
+                      className={classes.toolsImg}
+                      alt="gradient"
+                    />
+                    <div className="cat-cap">
+                      <h5>Meteo</h5>
+                      <p>This app use open-meteo.com api </p>
+                    </div>
+                  </div>
+                  <div className={classes.bottomCard}>
+                    <div className={classes.bottomCardRow}>
+                      <a href="#" target="_blank">
+                        <div className={classes.bottomCardIconContainer}>
+                          <BiLinkAlt className={classes.bottomCardIcon} />
+                        </div>
+                      </a>
+                      <a href="#" target="_blank">
+                        <div className={classes.bottomCardUrl}>
+                          <span className={classes.bottomCardUrlText}>
+                            fghtregerfsf
+                          </span>
+                        </div>
+                      </a>
+                    </div>
+                    <div className={classes.bottomCardRow}>
+                      <a href="#" target="_blank">
+                        <div className={classes.bottomCardIconContainer}>
+                          <FaGithub className={classes.bottomCardIcon} />
+                        </div>
+                      </a>
+                      <a href="#" target="_blank">
+                        <span className={classes.bottomCardUrlText}>
+                          dfssdfsdfsdfsdfsdf
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 col-sm-6">
+              <div className="toolCard text-center mb-50">
+                <div className={classes.cardColumn}>
+                  <div>
+                    <img
+                      src={lorem}
+                      className={classes.toolsImg}
+                      alt="gradient"
+                    />
+                    <div className="cat-cap">
+                      <h5>Lorem ipsum generator</h5>
+                      <p>Dummy text generator </p>
+                    </div>
+                  </div>
+                  <div className={classes.bottomCard}>
+                    <div className={classes.bottomCardRow}>
+                      <a href="#" target="_blank">
+                        <div className={classes.bottomCardIconContainer}>
+                          <BiLinkAlt className={classes.bottomCardIcon} />
+                        </div>
+                      </a>
+                      <a href="#" target="_blank">
+                        <div className={classes.bottomCardUrl}>
+                          <span className={classes.bottomCardUrlText}>
+                            fghtregerfsf
+                          </span>
+                        </div>
+                      </a>
+                    </div>
+                    <div className={classes.bottomCardRow}>
+                      <a href="#" target="_blank">
+                        <div className={classes.bottomCardIconContainer}>
+                          <FaGithub className={classes.bottomCardIcon} />
+                        </div>
+                      </a>
+                      <a href="#" target="_blank">
+                        <span className={classes.bottomCardUrlText}>
+                          dfssdfsdfsdfsdfsdf
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 col-sm-6">
+              <div className="toolCard text-center mb-50">
+                <div className={classes.cardColumn}>
+                  <div>
+                    <img
+                      src={gradient}
+                      className={classes.toolsImg}
+                      alt="gradient"
+                    />
+                    <div className="cat-cap">
+                      <h5>Color gradients</h5>
+                      <p>
+                        Generates variations of a color, ideal for web design
+                      </p>
                     </div>
                   </div>
                   <div className={classes.bottomCard}>
