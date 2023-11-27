@@ -10,6 +10,9 @@ import form from "../../assets/img/form.jpg";
 import maps from "../../assets/img/maps.jpg";
 import meteo from "../../assets/img/meteo.jpg";
 import lorem from "../../assets/img/lorem.jpg";
+import loading from "../../assets/img/loading.jpg";
+import snapshot from "../../assets/img/snapshot.jpg";
+import food from "../../assets/img/food.jpg";
 import { FaGithub } from "react-icons/fa";
 import { BiLinkAlt } from "react-icons/bi";
 
@@ -24,6 +27,7 @@ const Tools = () => {
       <section className="toolArea pt-5">
         <div className="container">
           <div className="row">
+            
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="toolCard text-center mb-50">
                 <div className={classes.cardColumn}>
@@ -70,14 +74,10 @@ const Tools = () => {
               <div className="toolCard text-center mb-50">
                 <div className={classes.cardColumn}>
                   <div>
-                    <img
-                      src={calculator}
-                      className={classes.toolsImg}
-                      alt="gradient"
-                    />
+                    <img src={loading} className={classes.toolsImg} alt="loading" />
                     <div className="cat-cap">
-                      <h5>Calculator</h5>
-                      <p>Calculator with basic functions</p>
+                      <h5>Loading optimization</h5>
+                      <p>Examples of content loading optimization</p>
                     </div>
                   </div>
                   <div className={classes.bottomCard}>
@@ -157,9 +157,7 @@ const Tools = () => {
                 </div>
               </div>
             </div>
-          </div>
 
-          <div className="row">
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="toolCard text-center mb-50">
                 <div className={classes.cardColumn}>
@@ -172,6 +170,52 @@ const Tools = () => {
                     <div className="cat-cap">
                       <h5>Dark mode</h5>
                       <p>Activate/deactivate dark mode with a switch</p>
+                    </div>
+                  </div>
+                  <div className={classes.bottomCard}>
+                    <div className={classes.bottomCardRow}>
+                      <a href="#" target="_blank">
+                        <div className={classes.bottomCardIconContainer}>
+                          <BiLinkAlt className={classes.bottomCardIcon} />
+                        </div>
+                      </a>
+                      <a href="#" target="_blank">
+                        <div className={classes.bottomCardUrl}>
+                          <span className={classes.bottomCardUrlText}>
+                            fghtregerfsf
+                          </span>
+                        </div>
+                      </a>
+                    </div>
+                    <div className={classes.bottomCardRow}>
+                      <a href="#" target="_blank">
+                        <div className={classes.bottomCardIconContainer}>
+                          <FaGithub className={classes.bottomCardIcon} />
+                        </div>
+                      </a>
+                      <a href="#" target="_blank">
+                        <span className={classes.bottomCardUrlText}>
+                          dfssdfsdfsdfsdfsdf
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 col-sm-6">
+              <div className="toolCard text-center mb-50">
+                <div className={classes.cardColumn}>
+                  <div>
+                    <img
+                      src={food}
+                      className={classes.toolsImg}
+                      alt="gradient"
+                    />
+                    <div className="cat-cap">
+                      <h5>Food cart</h5>
+                      <p>Example of food card implementation</p>
                     </div>
                   </div>
                   <div className={classes.bottomCard}>
@@ -356,6 +400,98 @@ const Tools = () => {
                     <div className="cat-cap">
                       <h5>Lorem ipsum generator</h5>
                       <p>Dummy text generator </p>
+                    </div>
+                  </div>
+                  <div className={classes.bottomCard}>
+                    <div className={classes.bottomCardRow}>
+                      <a href="#" target="_blank">
+                        <div className={classes.bottomCardIconContainer}>
+                          <BiLinkAlt className={classes.bottomCardIcon} />
+                        </div>
+                      </a>
+                      <a href="#" target="_blank">
+                        <div className={classes.bottomCardUrl}>
+                          <span className={classes.bottomCardUrlText}>
+                            fghtregerfsf
+                          </span>
+                        </div>
+                      </a>
+                    </div>
+                    <div className={classes.bottomCardRow}>
+                      <a href="#" target="_blank">
+                        <div className={classes.bottomCardIconContainer}>
+                          <FaGithub className={classes.bottomCardIcon} />
+                        </div>
+                      </a>
+                      <a href="#" target="_blank">
+                        <span className={classes.bottomCardUrlText}>
+                          dfssdfsdfsdfsdfsdf
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 col-sm-6">
+              <div className="toolCard text-center mb-50">
+                <div className={classes.cardColumn}>
+                  <div>
+                    <img
+                      src={snapshot}
+                      className={classes.toolsImg}
+                      alt="gradient"
+                    />
+                    <div className="cat-cap">
+                      <h5>Snapshot</h5>
+                      <p>Take a snapshot of a web page with html2canvas </p>
+                    </div>
+                  </div>
+                  <div className={classes.bottomCard}>
+                    <div className={classes.bottomCardRow}>
+                      <a href="#" target="_blank">
+                        <div className={classes.bottomCardIconContainer}>
+                          <BiLinkAlt className={classes.bottomCardIcon} />
+                        </div>
+                      </a>
+                      <a href="#" target="_blank">
+                        <div className={classes.bottomCardUrl}>
+                          <span className={classes.bottomCardUrlText}>
+                            fghtregerfsf
+                          </span>
+                        </div>
+                      </a>
+                    </div>
+                    <div className={classes.bottomCardRow}>
+                      <a href="#" target="_blank">
+                        <div className={classes.bottomCardIconContainer}>
+                          <FaGithub className={classes.bottomCardIcon} />
+                        </div>
+                      </a>
+                      <a href="#" target="_blank">
+                        <span className={classes.bottomCardUrlText}>
+                          dfssdfsdfsdfsdfsdf
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-md-6 col-sm-6">
+              <div className="toolCard text-center mb-50">
+                <div className={classes.cardColumn}>
+                  <div>
+                    <img
+                      src={calculator}
+                      className={classes.toolsImg}
+                      alt="gradient"
+                    />
+                    <div className="cat-cap">
+                      <h5>Calculator</h5>
+                      <p>Calculator with basic functions</p>
                     </div>
                   </div>
                   <div className={classes.bottomCard}>
