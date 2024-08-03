@@ -1,21 +1,20 @@
-import React from "react";
 import { motion } from "framer-motion";
-import classes from "./Tools.module.css";
-import cart from "../../assets/img/cart.jpg";
-import gradient from "../../assets/img/gradient.jpg";
+import React from "react";
+import { BiLinkAlt } from "react-icons/bi";
+import { FaGithub } from "react-icons/fa";
+import autocomplete from "../../assets/img/autocomplete.jpg";
 import calculator from "../../assets/img/calculator.jpg";
 import calendar from "../../assets/img/calendar.jpg";
+import cart from "../../assets/img/cart.jpg";
 import dark from "../../assets/img/dark.jpg";
+import food from "../../assets/img/food.jpg";
 import form from "../../assets/img/form.jpg";
+import loading from "../../assets/img/loading.jpg";
+import lorem from "../../assets/img/lorem.jpg";
 import maps from "../../assets/img/maps.jpg";
 import meteo from "../../assets/img/meteo.jpg";
-import lorem from "../../assets/img/lorem.jpg";
-import loading from "../../assets/img/loading.jpg";
 import snapshot from "../../assets/img/snapshot.jpg";
-import food from "../../assets/img/food.jpg";
-import autocomplete from "../../assets/img/autocomplete.jpg";
-import { FaGithub } from "react-icons/fa";
-import { BiLinkAlt } from "react-icons/bi";
+import classes from "./Tools.module.css";
 
 const Tools = () => {
   return (
@@ -40,7 +39,7 @@ const Tools = () => {
                   </div>
                   <div className={classes.bottomCard}>
                     <a
-                      href="https://aaaaaaaaaaaaaaaaaaaaaaaa.davidebalice.dev/"
+                      href="https://react-cart.davidebalice.dev/"
                       target="_blank"
                       rel="noreferrer"
                       className={classes.cardButton}
@@ -49,7 +48,7 @@ const Tools = () => {
                       <span className={classes.bottomCardUrlText}>Link</span>
                     </a>
                     <a
-                      href="https://github.com/davidebalice/aaaaaaaaaaaaaaaaaaaaaa"
+                      href="https://github.com/davidebalice/cart-react"
                       target="_blank"
                       rel="noreferrer"
                       className={classes.cardButton}
@@ -78,7 +77,7 @@ const Tools = () => {
                   </div>
                   <div className={classes.bottomCard}>
                     <a
-                      href="https://aaaaaaaaaaaaaaaaaaaaaaaa.davidebalice.dev/"
+                      href="https://loading-optimization.davidebalice.dev"
                       target="_blank"
                       rel="noreferrer"
                       className={classes.cardButton}
@@ -87,7 +86,7 @@ const Tools = () => {
                       <span className={classes.bottomCardUrlText}>Link</span>
                     </a>
                     <a
-                      href="https://github.com/davidebalice/aaaaaaaaaaaaaaaaaaaaaa"
+                      href="https://github.com/davidebalice/react-loading-optimization"
                       target="_blank"
                       rel="noreferrer"
                       className={classes.cardButton}
@@ -116,7 +115,7 @@ const Tools = () => {
                   </div>
                   <div className={classes.bottomCard}>
                     <a
-                      href="https://aaaaaaaaaaaaaaaaaaaaaaaa.davidebalice.dev/"
+                      href="https://react-calendar.davidebalice.dev/"
                       target="_blank"
                       rel="noreferrer"
                       className={classes.cardButton}
@@ -125,7 +124,7 @@ const Tools = () => {
                       <span className={classes.bottomCardUrlText}>Link</span>
                     </a>
                     <a
-                      href="https://github.com/davidebalice/aaaaaaaaaaaaaaaaaaaaaa"
+                      href="https://github.com/davidebalice/react-calendar"
                       target="_blank"
                       rel="noreferrer"
                       className={classes.cardButton}
@@ -154,7 +153,7 @@ const Tools = () => {
                   </div>
                   <div className={classes.bottomCard}>
                     <a
-                      href="https://aaaaaaaaaaaaaaaaaaaaaaaa.davidebalice.dev/"
+                      href="https://dark-mode.davidebalice.dev"
                       target="_blank"
                       rel="noreferrer"
                       className={classes.cardButton}
@@ -163,7 +162,7 @@ const Tools = () => {
                       <span className={classes.bottomCardUrlText}>Link</span>
                     </a>
                     <a
-                      href="https://github.com/davidebalice/aaaaaaaaaaaaaaaaaaaaaa"
+                      href="https://github.com/davidebalice/react-dark-mode"
                       target="_blank"
                       rel="noreferrer"
                       className={classes.cardButton}
@@ -192,7 +191,7 @@ const Tools = () => {
                   </div>
                   <div className={classes.bottomCard}>
                     <a
-                      href="https://aaaaaaaaaaaaaaaaaaaaaaaa.davidebalice.dev/"
+                      href="https://react-food-cart.davidebalice.dev/"
                       target="_blank"
                       rel="noreferrer"
                       className={classes.cardButton}
@@ -201,7 +200,7 @@ const Tools = () => {
                       <span className={classes.bottomCardUrlText}>Link</span>
                     </a>
                     <a
-                      href="https://github.com/davidebalice/aaaaaaaaaaaaaaaaaaaaaa"
+                      href="https://github.com/davidebalice/react-food-cart"
                       target="_blank"
                       rel="noreferrer"
                       className={classes.cardButton}
@@ -230,7 +229,7 @@ const Tools = () => {
                   </div>
                   <div className={classes.bottomCard}>
                     <a
-                      href="https://aaaaaaaaaaaaaaaaaaaaaaaa.davidebalice.dev/"
+                      href="https://react-form-validation.davidebalice.dev/"
                       target="_blank"
                       rel="noreferrer"
                       className={classes.cardButton}
@@ -239,7 +238,7 @@ const Tools = () => {
                       <span className={classes.bottomCardUrlText}>Link</span>
                     </a>
                     <a
-                      href="https://github.com/davidebalice/aaaaaaaaaaaaaaaaaaaaaa"
+                      href="https://github.com/davidebalice/react-form-validation"
                       target="_blank"
                       rel="noreferrer"
                       className={classes.cardButton}
@@ -268,7 +267,7 @@ const Tools = () => {
                   </div>
                   <div className={classes.bottomCard}>
                     <a
-                      href="https://aaaaaaaaaaaaaaaaaaaaaaaa.davidebalice.dev/"
+                      href="https://google-maps-react.davidebalice.dev/"
                       target="_blank"
                       rel="noreferrer"
                       className={classes.cardButton}
@@ -277,7 +276,7 @@ const Tools = () => {
                       <span className={classes.bottomCardUrlText}>Link</span>
                     </a>
                     <a
-                      href="https://github.com/davidebalice/aaaaaaaaaaaaaaaaaaaaaa"
+                      href="https://github.com/davidebalice/google-maps-react"
                       target="_blank"
                       rel="noreferrer"
                       className={classes.cardButton}
@@ -382,7 +381,7 @@ const Tools = () => {
                   </div>
                   <div className={classes.bottomCard}>
                     <a
-                      href="https://aaaaaaaaaaaaaaaaaaaaaaaa.davidebalice.dev/"
+                      href="https://snapshot.davidebalice.dev/"
                       target="_blank"
                       rel="noreferrer"
                       className={classes.cardButton}
@@ -391,7 +390,7 @@ const Tools = () => {
                       <span className={classes.bottomCardUrlText}>Link</span>
                     </a>
                     <a
-                      href="https://github.com/davidebalice/aaaaaaaaaaaaaaaaaaaaaa"
+                      href="https://github.com/davidebalice/react-snapshot"
                       target="_blank"
                       rel="noreferrer"
                       className={classes.cardButton}
@@ -420,7 +419,7 @@ const Tools = () => {
                   </div>
                   <div className={classes.bottomCard}>
                     <a
-                      href="https://aaaaaaaaaaaaaaaaaaaaaaaa.davidebalice.dev/"
+                      href="https://react-calculator.davidebalice.dev/"
                       target="_blank"
                       rel="noreferrer"
                       className={classes.cardButton}
@@ -429,7 +428,7 @@ const Tools = () => {
                       <span className={classes.bottomCardUrlText}>Link</span>
                     </a>
                     <a
-                      href="https://github.com/davidebalice/aaaaaaaaaaaaaaaaaaaaaa"
+                      href="https://github.com/davidebalice/react-calculator"
                       target="_blank"
                       rel="noreferrer"
                       className={classes.cardButton}
@@ -480,6 +479,7 @@ const Tools = () => {
               </div>
             </div>
 
+            {/*
             <div className="col-lg-4 col-md-6 col-sm-6">
               <div className="toolCard text-center mb-50">
                 <div className={classes.cardColumn}>
@@ -519,6 +519,7 @@ const Tools = () => {
                 </div>
               </div>
             </div>
+            */}
           </div>
         </div>
       </section>
