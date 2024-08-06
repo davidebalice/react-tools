@@ -11,6 +11,10 @@ This repository is only a dashboard to launch some React implementations:
 - form validation, <br>
 - lorem ipsum generator.<br>
 
-Link:<br>
+## Link:<br>
 
 https://react-tools.davidebalice.dev/
+
+<br>
+
+![Screenshot](https://react-tools.davidebalice.dev/assets/img/react-tools.jpg)
