@@ -17,4 +17,4 @@ https://react-tools.davidebalice.dev/
 
 <br>
 
-![Screenshot](https://react-tools.davidebalice.dev/assets/img/react-tools.jpg)
+![Screenshot](https://www.aroundweb.it/screenshot/react-tools.jpg)
