@@ -16,7 +16,7 @@ Each card shows a short description of the project with links to its live demo a
 | Events calendar        | Add events to a calendar                           | [react-calendar](https://github.com/davidebalice/react-calendar) |
 | Dark mode              | Toggle dark mode with a switch                     | [react-dark-mode](https://github.com/davidebalice/react-dark-mode) |
 | Food cart              | Food cart implementation                           | [react-food-cart](https://github.com/davidebalice/react-food-cart) |
-| Form validation        | Form validation with Formik and Yup                | [react-form-validation](https://github.com/davidebalice/react-form-validation) |
+| Form validation        | Simple form validation                            | [react-form-validation](https://github.com/davidebalice/react-form-validation) |
 | Google Maps            | Google Maps integration in React                   | [google-maps-react](https://github.com/davidebalice/google-maps-react) |
 | Meteo                  | Weather app based on the Open-Meteo API            | [meteo-app-react](https://github.com/davidebalice/meteo-app-react) |
 | Lorem ipsum generator  | Dummy text generator                               | [react-lorem-ipsum-generator](https://github.com/davidebalice/react-lorem-ipsum-generator) |
